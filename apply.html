@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+<link rel="stylesheet" href="style/style.css" type="text/css" media="screen">
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700' rel='stylesheet' type='text/css'>        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Veridian Dynamics - We make everything better. Sometimes.</title>
+        
+        <script src="js/jquery.min.js"></script>
+	<script src="slick/slick.js"></script>
+        <link rel="stylesheet" href="slick/slick.css">
+
+    </head>
+    <body id="apply">
+
+    <header>
+    <!--<img src="image/logo.png" alt='Your Good Souls' height='107' width='438'>-->
+    <h1>
+        <img id='largeLogo'class="resize" src="image/logo.png" alt="Veridian Dynamics" width="643" height="280">
+        </h1>
+	<nav><ol>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="jabberwocky.html">Jabberwocky</a></li><li><a href="projects.html">Projects</a></li><li class="activePage">Apply</li><li><a href="apologies.html">Apologies</a></li>        
+    </ol></nav>
+    <!--<h2>Pecunia praeest hominibus</h2>-->
+</header>
+        <h1><i>Apply</i> for a Job</h1>
+        <article class="card" id="form">
+            <section>
+            <h2>Work with us.</h2>
+            <p><i>When it comes to a career, we know you have many choices.</i>
+                <br/><br/>
+                Or perhaps none at all. Either way, why not explore the 
+                opportunities waiting for you at one of the largest, most 
+                innovative companies in the world?
+                <br/><br/>
+                <i>At Veridian Dynamics, we have our tentacles in everything.</i> 
+                <br/><br/>
+                That's right. Tentacles. Because our biomedical division is 
+                experimenting with using actual tentacles as a fun, efficient 
+                replacement for boring human fingers. It works.
+                <br/><br/>
+                <i>Or maybe you'd like to enter the glamorous world of 
+                professional test subjects.</i> 
+                <br/><br/>
+                It's true! You can actually get paid just to try new drugs,
+                many of which have no unintended side effects*. It's like
+                getting free money, just to live in your college dorm again.
+                <br/><br/>
+                <i>Whether it's industrial products, consumer goods, 
+                biomedical, food products, defense technology, or more: we have
+                a place for you.</i>
+                <br/><br/>
+                We're working hard to make the world a better place. At least
+                the parts we care about. Sorry Denmark. You know why we're mad.
+                <br/><br/>
+                <i>Come join the Veridian Dynamics family!</i>
+            </p>
+            <p class="small">
+                *If you're lucky.
+            </p>
+            </section>
+            <section>
+                                <h2 class='rightH'>Apply now.</h2>
+                <form action="apply.html" 
+                    method="post"
+                    id="frmRegister">
+                  
+                  <label for="txtFirst">First Name:</label>
+                  <input type="text" id="txtFirst" name="txtFirst" value="Ted" tabindex="100"
+                         maxlength="35" onfocus="this.select();" placeholder="What is your first name?" style="max-width: 200px;" >
+                  <br/>
+                  <label for="txtMiddle">Middle Name:</label>
+                  <input type="text" id="txtMiddle" name="txtMiddle" value="Margaret" tabindex="200"
+                         maxlength="35" onfocus="this.select();" placeholder="What is your middle name?" style="max-width: 200px;" >
+                  <br/>
+                  <label for="txtLast">Last Name:</label>
+                  <input type="text" id="txtLast" name="txtLast" value="Chips" tabindex="300"
+                         maxlength="35" onfocus="this.select();" placeholder="What is your last name?" style="max-width: 200px;" >
+                  <br/><br/>
+                    
+                    
+                  <label for="txtEmail">Email:</label>
+                  <input type="text" id="txtEmail" name="txtEmail" value="tedchips@veridiandynamics.com" tabindex="400"
+                         maxlength="35" onfocus="this.select();" placeholder="Enter a valid email address" style="width: 250px;" >
+                  <br/><br/>
+                  
+                  <label for="lstEducation">Education:</label>
+                      <select id="lstEducation" name="lstEducation" tabindex="500" size="1" style="width: 253px;">
+                          <option value="< Highschool" >less than High School</option>
+                              <option value="Highschool" >High School</option>
+                              <option value="Some College" >Some College</option>
+                              <option value="Associate's" >Associate's</option>
+                              <option value="Bachelor's" >Bachelor's</option>
+                              <option value="Master's" >Master's</option>
+                              <option value="Ph. D." >Ph. D.</option>
+                      </select>
+                  
+                  <br/><br/>
+
+                  <label>Internal promotion request.<input type="checkbox" id="chkInternal" name="chkInternal" value="internal" tabindex="600" 
+                                      ></label>
+                  
+                  <br/><br/>
+                  
+                  <fieldset class="radio" style='text-align:center;'>
+                      <legend>What area are you applying for?</legend>
+                      <label><input type="radio" id="radTestSubject" name="radArea" value="Test Subject" tabindex="700" 
+                                       checked="checked" >Test Subject</label>
+                      
+                      <label><input type="radio" id="radScience" name="radArea" value="Science" tabindex="701" 
+                                      >Science</label>
+                      
+                      <label><input type="radio" id="radHumanResources" name="radArea" value="Human Resources" tabindex="702" 
+                                      >Human Resources</label>
+                      
+                      <label><input type="radio" id="radAccounting" name="radArea" value="Accounting" tabindex="703" 
+                                      >Accounting</label>
+                      
+                      <label><input type="radio" id="radLeadership" name="radArea" value="Leadership" tabindex="704" 
+                                      >Leadership</label>
+                      
+                      <label><input type="radio" id="radOther" name="radArea" value="Other" tabindex="705" 
+                                      >Other</label>
+
+
+                  </fieldset>
+                  <br/>
+                  <label>I agree to the Terms and Conditions.<input type="checkbox" id="chkAgree" name="chkAgree" value="Agree" tabindex="800" 
+                                      ></label>
+                  <br/>
+                      <input type="submit" id="btnSubmit" name="btnSubmit" value="Submit" tabindex="991" class="button">
+                      <input type="reset" id="butReset" name="butReset" value="Reset" tabindex="993" class="button" onclick="reSetForm()" >
+                  </form>
+                <p class="small"><i>Terms and Conditions</i>
+                <br/>
+                As an act of good faith, you agree to supply your soul to 
+                Veridian Dynamics. You acknowledge that, despite the ultimate 
+                decision of Veridian Dynamics in regards to your application,
+                your soul cannot be returned to you. 
+                </p>
+                            </section>
+            <!--</section>-->
+        </article>
+        <footer>
+    <div>
+            <section id="left">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="https://twitter.com/share" class="fa fa-twitter fa-2x"></a></li>
+                    <li><a href="https://www.facebook.com/sharer/sharer.html?u=https%3A%2F%2Fparse.com" class="fa fa-facebook fa-2x"></a></li>
+                    
+                    <li><a href="&lt;? echo $gplusmsg ?&gt;" class="fa fa-google-plus fa-2x"></a></li>
+                    <li><a href="https://linkedin.com/" class="fa fa-linkedin fa-2x"></a></li>
+                    <li><a href="https://pinterest.com/" class="fa fa-pinterest fa-2x"></a></li>
+                    <li><a href="https://tumblr.com/" class="fa fa-tumblr fa-2x"></a></li>
+                </ul>
+             </section>
+             <section id="right">
+                <h3>Disclaimer</h3>
+                <p>Here at Veridian Dynamics, we care about <i>you.</i> That's
+                    why, by visiting this site, you agree to suspend all of your
+                    rights. Because we <i>care</i>. 
+                    <br/><br/>
+                    Veridian retains rights to all content generated while users browse this site.
+                </p> 
+             </section>
+    </div>
+</footer>
+    </body>
+</html>
